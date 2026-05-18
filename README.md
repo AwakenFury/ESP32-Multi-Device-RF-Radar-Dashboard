@@ -12,7 +12,7 @@ This project combines Wi-Fi, BLE, and Classic Bluetooth scanning with motion sen
 
 The ESP32 continuously scans for nearby devices, estimates relative distance using RSSI signal strength, and streams telemetry over serial to a Python desktop dashboard that renders a tactical radar display with motion trails and device persistence.
 
-Features
+## Features
  - Real-time Wi-Fi device scanning
  - BLE advertisement detection
  - Classic Bluetooth discovery
@@ -44,7 +44,7 @@ The ESP32 acts as the sensing and telemetry platform.
  - Serial telemetry transmission
  - Python Dashboard
 
-The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
+## The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
 
 The dashboard includes:
 
