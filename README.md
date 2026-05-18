@@ -67,17 +67,11 @@ Trails are rendered to visualize device movement and persistence.
 
 
 Displays nearby Wi-Fi devices and signal strength.
-
 BLE Devices
-
 Shows detected BLE advertisements.
-
 Bluetooth Devices
-
 Tracks nearby Classic Bluetooth devices.
-
 Magnetometer Feed
-
 Displays live magnetic field telemetry samples.
 
 ## Tactical Radar
