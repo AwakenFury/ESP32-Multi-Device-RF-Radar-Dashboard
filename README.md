@@ -81,7 +81,7 @@ Visualizes:
 
 <p><h3><center>This project is intended for educational, research, and defensive RF visualization purposes only.</center></h3></p>
 
-# Do not use this system to interfere with wireless communications or violate privacy laws.
+# <p><h3><center> Do not use this system to interfere with wireless communications or violate privacy laws.</center></h3></p>
 
 Example Use Cases
  - RF visualization experiments
