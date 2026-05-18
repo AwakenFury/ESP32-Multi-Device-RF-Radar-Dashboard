@@ -46,25 +46,6 @@ The ESP32 acts as the sensing and telemetry platform.
 
 The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
 
-The dashboard includes:
-
- - Real-time radar sweep
- - Device persistence tracking
- - RSSI-based positioning
- - Device trail rendering
- - Signal strength visualization
- - Magnetometer telemetry display
- - Device statistics panels
- - Serial connection monitoring
- - Logging and tamper event tracking
- - Radar Logic
- - Displays nearby Wi-Fi devices and signal strength
- - BLE Devices
- - Shows detected BLE advertisements
- - Bluetooth Devices
- - Tracks nearby Classic Bluetooth devices
- - Magnetometer Feed
- - Displays live magnetic field telemetry samples
 
 ## Tactical Radar
 
