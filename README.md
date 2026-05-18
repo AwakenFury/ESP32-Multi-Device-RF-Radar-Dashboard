@@ -77,9 +77,9 @@ Visualizes:
  - Orientation heading
  - Logging
 
-### Disclaimer
+## Disclaimer
 
-## This project is intended for educational, research, and defensive RF visualization purposes only.
+This project is intended for educational, research, and defensive RF visualization purposes only.
 
 # Do not use this system to interfere with wireless communications or violate privacy laws.
 
