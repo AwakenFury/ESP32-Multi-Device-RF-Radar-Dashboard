@@ -58,21 +58,13 @@ The dashboard includes:
  - Serial connection monitoring
  - Logging and tamper event tracking
  - Radar Logic
-
-The radar estimates approximate device distance using RSSI signal strength:
-meters = 10 ** ((txPower - rssi)/(10*2.0))
-Device positions are pseudo-randomized into angular space and smoothed over time to simulate radar tracking.
-Trails are rendered to visualize device movement and persistence.
-
-
-
-Displays nearby Wi-Fi devices and signal strength.
-BLE Devices
-Shows detected BLE advertisements.
-Bluetooth Devices
-Tracks nearby Classic Bluetooth devices.
-Magnetometer Feed
-Displays live magnetic field telemetry samples.
+ - Displays nearby Wi-Fi devices and signal strength
+ - BLE Devices
+ - Shows detected BLE advertisements
+ - Bluetooth Devices
+ - Tracks nearby Classic Bluetooth devices
+ - Magnetometer Feed
+ - Displays live magnetic field telemetry samples
 
 ## Tactical Radar
 
