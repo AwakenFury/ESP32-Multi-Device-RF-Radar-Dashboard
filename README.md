@@ -4,7 +4,7 @@
 ![ESP32](https://img.shields.io/badge/platform-ESP32-blue)
 
 
-ESP32 Multi-Device RF Radar Dashboard
+## ESP32 Multi-Device RF Radar Dashboard
 
 A real-time RF situational awareness and device tracking system powered by an ESP32 and a Python tactical dashboard.
 
@@ -13,51 +13,51 @@ This project combines Wi-Fi, BLE, and Classic Bluetooth scanning with motion sen
 The ESP32 continuously scans for nearby devices, estimates relative distance using RSSI signal strength, and streams telemetry over serial to a Python desktop dashboard that renders a tactical radar display with motion trails and device persistence.
 
 Features
-Real-time Wi-Fi device scanning
-BLE advertisement detection
-Classic Bluetooth discovery
-RSSI-based distance estimation
-Radar-style tactical visualization
-Device motion trails
-OLED signal display on ESP32
-MPU6050 orientation tracking
-BMM150 magnetometer heading integration
-Motion sensor detection
-CSV logging system
-Tamper/offline detection framework
-Serial telemetry streaming
-Multi-panel desktop dashboard
-System Architecture
-ESP32 Firmware
+ - Real-time Wi-Fi device scanning
+ - BLE advertisement detection
+ - Classic Bluetooth discovery
+ - RSSI-based distance estimation
+ - Radar-style tactical visualization
+ - Device motion trails
+ - OLED signal display on ESP32
+ - MPU6050 orientation tracking
+ - BMM150 magnetometer heading integration
+ - Motion sensor detection
+ - CSV logging system
+ - Tamper/offline detection framework
+ - Serial telemetry streaming
+ - Multi-panel desktop dashboard
+ - System Architecture
+ - ESP32 Firmware
 
 The ESP32 acts as the sensing and telemetry platform.
 
-It performs:
+## It performs:
 
-Wi-Fi network scans
-BLE scans
-Classic Bluetooth discovery
-Motion detection
-IMU orientation sampling
-Magnetometer heading reads
-OLED visualization
-Serial telemetry transmission
-Python Dashboard
+ - Wi-Fi network scans
+ - BLE scans
+ - Classic Bluetooth discovery
+ - Motion detection
+ - IMU orientation sampling
+ - Magnetometer heading reads
+ - OLED visualization
+ - Serial telemetry transmission
+ - Python Dashboard
 
 The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
 
 The dashboard includes:
 
-Real-time radar sweep
-Device persistence tracking
-RSSI-based positioning
-Device trail rendering
-Signal strength visualization
-Magnetometer telemetry display
-Device statistics panels
-Serial connection monitoring
-Logging and tamper event tracking
-Radar Logic
+ - Real-time radar sweep
+ - Device persistence tracking
+ - RSSI-based positioning
+ - Device trail rendering
+ - Signal strength visualization
+ - Magnetometer telemetry display
+ - Device statistics panels
+ - Serial connection monitoring
+ - Logging and tamper event tracking
+ - Radar Logic
 
 The radar estimates approximate device distance using RSSI signal strength:
 
@@ -67,30 +67,7 @@ Device positions are pseudo-randomized into angular space and smoothed over time
 
 Trails are rendered to visualize device movement and persistence.
 
-Hardware Used
-ESP32
-ESP32 development board
-Sensors
-MPU6050 IMU
-BMM150 Magnetometer
-PIR Motion Sensor
-Display
-SSD1306 OLED Display (128x64)
-Software Stack
-ESP32 Firmware
-Arduino Framework
-WiFi.h
-BLEDevice
-ESP-IDF Bluetooth APIs
-MPU6050_light
-Adafruit SSD1306
-DFRobot BMM150
-Desktop Dashboard
-Python 3
-Tkinter
-PySerial
-Dashboard Panels
-Wi-Fi Devices
+
 
 Displays nearby Wi-Fi devices and signal strength.
 
@@ -106,52 +83,29 @@ Magnetometer Feed
 
 Displays live magnetic field telemetry samples.
 
-Tactical Radar
+## Tactical Radar
 
 Visualizes:
 
-Estimated device positions
-Radar sweep
-Motion trails
-Device persistence
-Orientation heading
-Logging
+ - Estimated device positions
+ - Radar sweep
+ - Motion trails
+ - Device persistence
+ - Orientation heading
+ - Logging
 
-The dashboard automatically creates dated log folders containing:
+### Disclaimer
 
-Device Logs
-Wi-Fi detections
-BLE detections
-Bluetooth detections
-RSSI telemetry
-Tamper Logs
-Serial disconnects
-Connection failures
-Intrusion alerts
-Future Goals
-Real triangulation support
-Multi-node ESP32 mesh tracking
-mmWave integration
-CSI-based positioning experiments
-Threat classification
-Machine learning signal analysis
-RF heatmaps
-Web dashboard
-GPS integration
-SDR support
-Directional antenna support
-Disclaimer
+## This project is intended for educational, research, and defensive RF visualization purposes only.
 
-This project is intended for educational, research, and defensive RF visualization purposes only.
-
-Do not use this system to interfere with wireless communications or violate privacy laws.
+# Do not use this system to interfere with wireless communications or violate privacy laws.
 
 Example Use Cases
-RF visualization experiments
-Wireless situational awareness
-Security research
-Sensor fusion experiments
-Tactical UI development
-Device density mapping
-Embedded telemetry systems
-Cyber-physical dashboard prototyping
+ - RF visualization experiments
+ - Wireless situational awareness
+ - Security research
+ - Sensor fusion experiments
+ - Tactical UI development
+ - Device density mapping
+ - Embedded telemetry systems
+ - Cyber-physical dashboard prototyping
