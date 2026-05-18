@@ -44,7 +44,7 @@ The ESP32 acts as the sensing and telemetry platform.
  - Serial telemetry transmission
  - Python Dashboard
 
-## The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
+The Python application receives serial telemetry from the ESP32 and renders a live tactical dashboard using Tkinter.
 
 The dashboard includes:
 
