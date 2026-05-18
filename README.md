@@ -60,11 +60,8 @@ The dashboard includes:
  - Radar Logic
 
 The radar estimates approximate device distance using RSSI signal strength:
-
 meters = 10 ** ((txPower - rssi)/(10*2.0))
-
 Device positions are pseudo-randomized into angular space and smoothed over time to simulate radar tracking.
-
 Trails are rendered to visualize device movement and persistence.
 
 
